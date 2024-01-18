@@ -1,3 +1,10 @@
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: 'Pricing title',
+  description: 'Pricing description',
+};
+
 export default function PricingPage() {
   return (
     <>
